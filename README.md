@@ -7,4 +7,6 @@ I found that the highest selling genre of movies is Sports, followed by Foreign,
 INSTRUCTIONS:
 To run these queries, start by running the CREATE TABLE detailedreport query, then run both of the CREATE functions for month_of_sale and day_of_sale under the --B Functions comment. After that, run the insert statement right above the --B Functions comment, below the CREATE TABLE detailed report query. After the detailed report has been created, we can create the summary report. Start by first running the CREATE TABLE summaryreport query under the comment --C. Then we can run the INSERT INTO statement right below it. After that, I wrote a trigger statement that will update the summary table if the detailed tale has been updated. Start by running the CREATE OR REPLACE FUNCTION insert_trigger_function() query, and then running the CREATE TRIGGER query. Lastly, I created a stored procedure called create_report_tables() that will automatically generate the detailed and summary reports. To create this, run everything under the --Stored procedure: comment, before the CALL statement.
 
+Link to MySQL original database: https://dev.mysql.com/doc/sakila/en/sakila-preface.html
+
 NOTE: This database was originally made for MySQL, while my query was made in PostgreSQL so there may be some syntax issues If this code is run in MySQL.
